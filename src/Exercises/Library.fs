@@ -23,12 +23,8 @@ module Say =
 
     let int_lst = [1;2;3]
 
-    let fn x b =
-        (if x
-        then 
-            1
-        else b)
-        + 7  
+    let fn x b = (if x then 1 else b) + 7
+
     let fn2 x = 
         for i in 1..2..10 do
             printfn $"{i}"
