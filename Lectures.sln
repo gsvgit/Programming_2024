@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1C9B3502-1
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tests", "test\Tests\Tests.fsproj", "{DB1BB7B2-4207-4F77-A40E-CE98C7C13A51}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Benchmarks", "benchmarks\Benchmarks.fsproj", "{FF096F73-CAD8-4733-A1B9-C306629C637A}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ImageProcessing", "src\ImageProcessing\ImageProcessing.fsproj", "{DA2F7A21-E6CF-43FA-BFB3-922A8B57B76B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,9 +32,18 @@ Global
 		{DB1BB7B2-4207-4F77-A40E-CE98C7C13A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB1BB7B2-4207-4F77-A40E-CE98C7C13A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB1BB7B2-4207-4F77-A40E-CE98C7C13A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF096F73-CAD8-4733-A1B9-C306629C637A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF096F73-CAD8-4733-A1B9-C306629C637A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF096F73-CAD8-4733-A1B9-C306629C637A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF096F73-CAD8-4733-A1B9-C306629C637A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2F7A21-E6CF-43FA-BFB3-922A8B57B76B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2F7A21-E6CF-43FA-BFB3-922A8B57B76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2F7A21-E6CF-43FA-BFB3-922A8B57B76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2F7A21-E6CF-43FA-BFB3-922A8B57B76B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DCC7AC6B-CA90-4890-B8AB-45BF39157AB2} = {0C857B10-C523-4833-B3FF-6D3A9A7A2099}
 		{DB1BB7B2-4207-4F77-A40E-CE98C7C13A51} = {1C9B3502-1FB1-452A-B5E7-4951A0D52C86}
+		{DA2F7A21-E6CF-43FA-BFB3-922A8B57B76B} = {0C857B10-C523-4833-B3FF-6D3A9A7A2099}
 	EndGlobalSection
 EndGlobal
