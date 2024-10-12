@@ -1,11 +1,11 @@
 namespace Tests
 
-open System
-open Microsoft.VisualStudio.TestTools.UnitTesting
+open Xunit
 
-[<TestClass>]
 type TestClass () =
 
-    [<TestMethod>]
+    [<Fact>]
     member this.TestMethodPassing () =
-        Assert.IsTrue(true);
+        Assert.True(true);
+
+    
